@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Build
-        run: ng run build -- --prod
+        run: ng run build --prod
       - name: Azure WebApp
         uses: Azure/webapps-deploy@v2
         with:
