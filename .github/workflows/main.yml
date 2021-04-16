@@ -4,7 +4,7 @@ on: [push]
 
 env:
   AZURE_WEBAPP_NAME: hiitoangular    # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: './dist/hiitoangular'      # set this to the path to your web app project
+  AZURE_WEBAPP_PACKAGE_PATH: './dist/hiitoangular'      # set this to the path to your web app project.
   NODE_VERSION: '12.x' 
 
 jobs:
